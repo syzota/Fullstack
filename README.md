@@ -1,6 +1,6 @@
 # Fullstack - Checkpoint 1
 Checkpoint 1 | Fullstack
-GPUTRI SYAFANA AFRILLIA | 2409116015 
+PUTRI SYAFANA AFRILLIA | 2409116015 
 ![image](https://github.com/user-attachments/assets/4b5a5be0-a75c-4a06-8336-3a6ad640d4c3)
 
 # Fullstack - Checkpoint 2
