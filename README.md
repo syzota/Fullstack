@@ -9,7 +9,7 @@ Mini Project | Fullstack
 
 # Fullstack - Checkpoint 2
 Checkpoint 2 | Fullstack
-[gambar nanti]
+![image](https://github.com/user-attachments/assets/a0c3e803-fba5-482d-a902-34f32e6ed1b1)
 
 # Fullstack - Checkpoint 3
 Checkpoint 3 | Fullstack
