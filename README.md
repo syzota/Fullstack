@@ -13,6 +13,6 @@ Checkpoint 2 | Fullstack
 
 # Fullstack - Checkpoint 3
 Checkpoint 3 | Fullstack
-[gambar nanti]
+![image](https://github.com/user-attachments/assets/2628500e-3aa8-4df6-8ffe-14c9bc0bea67)
 
 
