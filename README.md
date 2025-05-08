@@ -17,3 +17,11 @@ Checkpoint 3 | Fullstack
 
 # Mini Project 2
 Mini Project | Fullstack
+![image](https://github.com/user-attachments/assets/7973fae7-2235-41af-92fa-8620c5c28c8a)
+
+Dokumentasi navigasi tetap _stay_ jika melakukan _scrolling_.
+
+![image](https://github.com/user-attachments/assets/d8e239d9-77c1-42f3-ac9e-0d642645d192)
+![image](https://github.com/user-attachments/assets/f6432f99-7120-47d4-a574-7c1de13c8ac1)
+
+Halaman _'About'_ dan _'Catalogue_.
