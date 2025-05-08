@@ -1,10 +1,10 @@
 # Mini Project 1
 Mini Project | Fullstack
+PUTRI SYAFANA AFRILLIA | 2409116015 
 ![image](https://github.com/user-attachments/assets/72049ed5-b733-4ba0-85f0-176ecb9d6702)
 
 # Fullstack - Checkpoint 1
 Checkpoint 1 | Fullstack
-PUTRI SYAFANA AFRILLIA | 2409116015 
 ![image](https://github.com/user-attachments/assets/4b5a5be0-a75c-4a06-8336-3a6ad640d4c3)
 
 # Fullstack - Checkpoint 2
@@ -17,6 +17,10 @@ Checkpoint 3 | Fullstack
 
 # Mini Project 2
 Mini Project | Fullstack
+[Gambar menyusul]
+
+# Fullstack - Checkpoint 1 Pertemuan 2
+Checkpoint 1 | Fullstack
 ![image](https://github.com/user-attachments/assets/7973fae7-2235-41af-92fa-8620c5c28c8a)
 
 Dokumentasi navigasi tetap _stay_ jika melakukan _scrolling_.
