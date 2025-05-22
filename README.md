@@ -17,7 +17,9 @@ Checkpoint 3 | Fullstack
 
 # Mini Project 2
 Mini Project | Fullstack
-[Gambar menyusul]
+![image](https://github.com/user-attachments/assets/0163a313-e7b0-423b-b0cc-95f17cac78e2)
+
+Tambah _page_ baru dan ketentuan lainnya.
 
 # Fullstack - Checkpoint 1 Pertemuan 2
 Checkpoint 1 | Fullstack
