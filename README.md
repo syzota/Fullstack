@@ -31,3 +31,19 @@ Dokumentasi navigasi tetap _stay_ jika melakukan _scrolling_.
 ![image](https://github.com/user-attachments/assets/f6432f99-7120-47d4-a574-7c1de13c8ac1)
 
 Halaman _'About'_ dan _'Catalogue_.
+
+# Mini Project 3
+1. Home (Main Page)
+![image](https://github.com/user-attachments/assets/d741bf6d-44b0-49aa-a362-d83fd5d5859f)
+
+2. Shop Now (Catalogue)
+![image](https://github.com/user-attachments/assets/7f6dfe6b-ff64-4730-9b0a-e87885b576c3)
+
+3. About
+![image](https://github.com/user-attachments/assets/d0cc00f2-d245-4f81-b944-a3ece71c401e)
+
+4. Message
+![image](https://github.com/user-attachments/assets/7c0ae1fc-11cd-4125-b18c-2b96eedbf418)
+
+5. Display
+![image](https://github.com/user-attachments/assets/2e6716af-39fc-4ff6-bae1-73ab12fa95fd)
