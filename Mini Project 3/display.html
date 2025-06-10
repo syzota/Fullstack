@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lynx Accessories - Display</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="lynx.css" />
+  <style>
+    .display-card {
+      border-radius: 20px;
+      box-shadow: 0 8px 15px rgba(112, 59, 231, 0.3);
+      transition: transform 0.4s ease, filter 0.4s ease;
+      overflow: hidden;
+      filter: grayscale(30%);
+      cursor: pointer;
+    }
+    .display-card:hover {
+      transform: scale(1.05) translateY(-10px);
+      filter: grayscale(0) brightness(1.1);
+      box-shadow: 0 15px 25px rgba(112, 59, 231, 0.7);
+    }
+    .display-label {
+      background: rgba(112, 59, 231, 0.85);
+      text-shadow: 1px 1px 4px black;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .fade-slide-in {
+      animation: slideInFade 1s ease forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    @keyframes slideInFade {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .hide-btn {
+      border-radius: 20px;
+      transition: background-color 0.3s ease;
+    }
+    .hide-btn:hover {
+      background-color: #5d30c2;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="lynxx.html">
+        <div style="width:16px; height:16px; background:#703BE7; border-radius:4px;"></div>
+        <div style="width:16px; height:16px; background:#2c167f; border-radius:4px;"></div>
+        <span class="fw-bold">Lynx</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item"><a class="nav-link" href="lynxx.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="message.html">Message</a></li>
+          <li class="nav-item"><a class="nav-link active" href="display.html">Display</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main class="container my-5 pt-3">
+  <h1 class="mb-5 fw-bold text-center text-white" style="text-shadow: 2px 2px 6px #2c167f;">
+    Our Displays
+  </h1>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm rounded-4 h-100">
+        <img src="https://i.pinimg.com/736x/39/0d/c6/390dc66b0b49c18857ae3a8a98f814b8.jpg" class="card-img-top rounded-top-4" alt="Amanda S.">
+        <div class="card-body">
+          <h5 class="card-title">CDs</h5>
+          <p class="card-text">"Lynx makes prettiest CDs ever! It's making you want to buy."</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 1 minute ago</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm rounded-4 h-100">
+        <img src="https://i.pinimg.com/736x/f3/29/7f/f3297f20b0610c59fa13f7210bd4a771.jpg" class="card-img-top rounded-top-4" alt="Dika R.">
+        <div class="card-body">
+          <h5 class="card-title">Clothes</h5>
+          <p class="card-text">"Recommended by so many people! Everyone wants it."</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 2 days ago</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm rounded-4 h-100">
+        <img src="https://i.pinimg.com/736x/cf/e6/45/cfe645663ec6f78954b3c633a1adfded.jpg" class="card-img-top rounded-top-4" alt="Sari W.">
+        <div class="card-body">
+          <h5 class="card-title">Accessories</h5>
+          <p class="card-text">"Unique and coolest things to ever exist! You will love them."</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 1 week ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
