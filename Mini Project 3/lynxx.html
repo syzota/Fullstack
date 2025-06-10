@@ -1,1 +1,100 @@
-tes
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lynx Accessories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="lynx.css" />
+    <style>
+
+      .btn-rounded {
+        border-radius: 25px !important;
+        transition: all 0.4s ease;
+        box-shadow: 0 6px 12px rgba(112, 59, 231, 0.5);
+        background: rgba(255 255 255 / 0.85);
+      }
+      .btn-rounded:hover {
+        background: rgba(112, 59, 231, 0.85);
+        color: white !important;
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 8px 20px rgba(112, 59, 231, 0.9);
+      }
+
+      .hero-text h1 {
+        text-shadow: 2px 2px 8px rgba(44, 22, 127, 0.7);
+      }
+
+      .fade-in {
+        animation: fadeInAnim 1.5s ease forwards;
+        opacity: 0;
+      }
+      @keyframes fadeInAnim {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .hero-img img {
+        border-radius: 20px;
+        filter: brightness(0.9);
+        transition: filter 0.4s ease, transform 0.4s ease;
+      }
+      .hero-img img:hover {
+        filter: brightness(1) saturate(1.2);
+        transform: rotate(3deg) scale(1.05);
+      }
+
+      .hero-section {
+        background: linear-gradient(135deg, rgba(112, 59, 231, 0.85), rgba(239, 234, 255, 0.85));
+        border-radius: 0 0 40px 40px;
+        min-height: 100vh;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="lynxx.html">
+          <div style="width:16px; height:16px; background:#703BE7; border-radius:4px;"></div>
+          <div style="width:16px; height:16px; background:#2c167f; border-radius:4px;"></div>
+          <span class="fw-bold">Lynx</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item"><a class="nav-link active" href="lynxx.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="message.html">Message</a></li>
+            <li class="nav-item"><a class="nav-link" href="display.html">Display</a></li>
+          </ul>
+          <div class="d-flex gap-2 ms-lg-3 mt-2 mt-lg-0">
+            <button class="btn btn-outline-dark btn-rounded">Log in</button>
+            <button class="btn btn-primary btn-rounded">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section d-flex align-items-center justify-content-around px-4 fade-in">
+      <div class="hero-text text-white" style="max-width: 45%;">
+        <p class="tagline text-uppercase fw-semibold mb-3" style="letter-spacing: 3px; opacity: 0.85;">NEW COOLER ARRIVAL!!</p>
+        <h1 class="display-1 fw-bold">Lynx</h1>
+        <p class="subtext fst-italic fs-5" style="opacity: 0.9;">
+          神父様、告白があります。<br />
+          血の滴と涙、それはただの演劇。<br />
+          これは秘密の独白、美しくても生まれながらの悪。
+        </p>
+        <a href="catalogue.html" class="btn btn-light btn-lg mt-4 btn-rounded shadow-sm">Shop Now</a>
+      </div>
+      <div class="hero-img" style="max-width: 45%;">
+        <img src="purple.png" alt="Model" class="img-fluid" />
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
